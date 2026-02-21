@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Fresh Start\\OarabileMarwane_CV\\OarabileMarwane_CV\\OarabileMarwane_CV.csproj": {}
+    "E:\\GitHubLocals\\curriculum-vitae\\OarabileMarwane_CV.csproj": {}
   },
   "projects": {
-    "E:\\Fresh Start\\OarabileMarwane_CV\\OarabileMarwane_CV\\OarabileMarwane_CV.csproj": {
+    "E:\\GitHubLocals\\curriculum-vitae\\OarabileMarwane_CV.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Fresh Start\\OarabileMarwane_CV\\OarabileMarwane_CV\\OarabileMarwane_CV.csproj",
+        "projectUniqueName": "E:\\GitHubLocals\\curriculum-vitae\\OarabileMarwane_CV.csproj",
         "projectName": "OarabileMarwane_CV",
-        "projectPath": "E:\\Fresh Start\\OarabileMarwane_CV\\OarabileMarwane_CV\\OarabileMarwane_CV.csproj",
+        "projectPath": "E:\\GitHubLocals\\curriculum-vitae\\OarabileMarwane_CV.csproj",
         "packagesPath": "C:\\Users\\Oarabile Marwane\\.nuget\\packages\\",
-        "outputPath": "E:\\Fresh Start\\OarabileMarwane_CV\\OarabileMarwane_CV\\obj\\",
+        "outputPath": "E:\\GitHubLocals\\curriculum-vitae\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
