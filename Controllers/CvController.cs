@@ -30,7 +30,7 @@ namespace OarabileMarwane_CV.Controllers
                 Certifications = _db.Certifications.ToList()
             };
 
-            return View(viewModel);
+            return View("FullCv", viewModel);
         }
     }
 }
