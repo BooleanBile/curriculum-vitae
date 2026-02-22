@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\GitHubLocals\\curriculum-vitae\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|e:\\githublocals\\curriculum-vitae\\viewmodel\\fullcvviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|solutionrelative:viewmodel\\fullcvviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|e:\\githublocals\\curriculum-vitae\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|e:\\githublocals\\curriculum-vitae\\models\\cv\\education.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|solutionrelative:models\\cv\\education.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|e:\\githublocals\\curriculum-vitae\\models\\cv\\experience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|solutionrelative:models\\cv\\experience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +51,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FullCvViewModel.cs",
+              "DocumentMoniker": "E:\\GitHubLocals\\curriculum-vitae\\ViewModel\\FullCvViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\FullCvViewModel.cs",
+              "ToolTip": "E:\\GitHubLocals\\curriculum-vitae\\ViewModel\\FullCvViewModel.cs",
+              "RelativeToolTip": "ViewModel\\FullCvViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T19:06:40.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Education.cs",
+              "DocumentMoniker": "E:\\GitHubLocals\\curriculum-vitae\\Models\\CV\\Education.cs",
+              "RelativeDocumentMoniker": "Models\\CV\\Education.cs",
+              "ToolTip": "E:\\GitHubLocals\\curriculum-vitae\\Models\\CV\\Education.cs",
+              "RelativeToolTip": "Models\\CV\\Education.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T18:58:27.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Experience.cs",
+              "DocumentMoniker": "E:\\GitHubLocals\\curriculum-vitae\\Models\\CV\\Experience.cs",
+              "RelativeDocumentMoniker": "Models\\CV\\Experience.cs",
+              "ToolTip": "E:\\GitHubLocals\\curriculum-vitae\\Models\\CV\\Experience.cs",
+              "RelativeToolTip": "Models\\CV\\Experience.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T18:56:43.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\GitHubLocals\\curriculum-vitae\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "E:\\GitHubLocals\\curriculum-vitae\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAUwEsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T18:14:36.847Z",
+              "EditorCaption": ""
             }
           ]
         },

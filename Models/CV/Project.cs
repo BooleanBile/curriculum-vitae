@@ -1,6 +1,6 @@
 ﻿namespace OarabileMarwane_CV.Models.CV
 {
-    public class Projects
+    public class Project
     {
         //prop  
         public int Id { get; set; }
