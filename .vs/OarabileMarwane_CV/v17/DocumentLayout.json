@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "E:\\GitHubLocals\\curriculum-vitae\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|e:\\githublocals\\curriculum-vitae\\controllers\\cvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|solutionrelative:controllers\\cvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|e:\\githublocals\\curriculum-vitae\\views\\cv\\fullcv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|solutionrelative:views\\cv\\fullcv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|e:\\githublocals\\curriculum-vitae\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\GitHubLocals\\curriculum-vitae\\Migrations\\20260222210216_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260222210216_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|e:\\githublocals\\curriculum-vitae\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|e:\\githublocals\\curriculum-vitae\\views\\cv\\fullcv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|solutionrelative:views\\cv\\fullcv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|e:\\githublocals\\curriculum-vitae\\controllers\\cvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|solutionrelative:controllers\\cvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|e:\\githublocals\\curriculum-vitae\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|e:\\githublocals\\curriculum-vitae\\models\\cv\\education.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|e:\\githublocals\\curriculum-vitae\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|e:\\githublocals\\curriculum-vitae\\migrations\\20260222200539_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|solutionrelative:migrations\\20260222200539_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,44 +86,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "20260222210216_InitialCreate.cs",
+              "DocumentMoniker": "E:\\GitHubLocals\\curriculum-vitae\\Migrations\\20260222210216_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260222210216_InitialCreate.cs",
+              "ToolTip": "E:\\GitHubLocals\\curriculum-vitae\\Migrations\\20260222210216_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260222210216_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T21:02:16.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CvController.cs",
               "DocumentMoniker": "E:\\GitHubLocals\\curriculum-vitae\\Controllers\\CvController.cs",
               "RelativeDocumentMoniker": "Controllers\\CvController.cs",
               "ToolTip": "E:\\GitHubLocals\\curriculum-vitae\\Controllers\\CvController.cs",
               "RelativeToolTip": "Controllers\\CvController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAIwCIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-22T20:10:33.61Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20260222200539_InitialCreate.cs",
-              "DocumentMoniker": "E:\\GitHubLocals\\curriculum-vitae\\Migrations\\20260222200539_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20260222200539_InitialCreate.cs",
-              "ToolTip": "E:\\GitHubLocals\\curriculum-vitae\\Migrations\\20260222200539_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20260222200539_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T20:05:39.866Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "FullCv.cshtml",
               "DocumentMoniker": "E:\\GitHubLocals\\curriculum-vitae\\Views\\CV\\FullCv.cshtml",
               "RelativeDocumentMoniker": "Views\\CV\\FullCv.cshtml",
               "ToolTip": "E:\\GitHubLocals\\curriculum-vitae\\Views\\CV\\FullCv.cshtml",
               "RelativeToolTip": "Views\\CV\\FullCv.cshtml",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAowIMAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwHQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-22T19:58:42.344Z"
+              "WhenOpened": "2026-02-22T19:58:42.344Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\GitHubLocals\\curriculum-vitae\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -131,12 +133,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwCYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T19:58:19.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T19:58:19.405Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Skill.cs",
               "DocumentMoniker": "E:\\GitHubLocals\\curriculum-vitae\\Models\\CV\\Skill.cs",
               "RelativeDocumentMoniker": "Models\\CV\\Skill.cs",
@@ -148,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Project.cs",
               "DocumentMoniker": "E:\\GitHubLocals\\curriculum-vitae\\Models\\CV\\Project.cs",
               "RelativeDocumentMoniker": "Models\\CV\\Project.cs",
@@ -160,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Experience.cs",
               "DocumentMoniker": "E:\\GitHubLocals\\curriculum-vitae\\Models\\CV\\Experience.cs",
               "RelativeDocumentMoniker": "Models\\CV\\Experience.cs",
@@ -172,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Education.cs",
               "DocumentMoniker": "E:\\GitHubLocals\\curriculum-vitae\\Models\\CV\\Education.cs",
               "RelativeDocumentMoniker": "Models\\CV\\Education.cs",
@@ -184,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ContactInfo.cs",
               "DocumentMoniker": "E:\\GitHubLocals\\curriculum-vitae\\Models\\CV\\ContactInfo.cs",
               "RelativeDocumentMoniker": "Models\\CV\\ContactInfo.cs",
@@ -196,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Certification.cs",
               "DocumentMoniker": "E:\\GitHubLocals\\curriculum-vitae\\Models\\CV\\Certification.cs",
               "RelativeDocumentMoniker": "Models\\CV\\Certification.cs",
@@ -208,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\GitHubLocals\\curriculum-vitae\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -226,7 +227,7 @@
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
               "ToolTip": "E:\\GitHubLocals\\curriculum-vitae\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAuwEQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-22T18:14:36.847Z",
               "EditorCaption": ""

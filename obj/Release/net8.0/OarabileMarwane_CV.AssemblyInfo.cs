@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OarabileMarwane_CV")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19760718f99110f23548e53a8a9fda6f871895e3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26d91cf361d74ce73f6fa489bc0a62ae146522f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("OarabileMarwane_CV")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OarabileMarwane_CV")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

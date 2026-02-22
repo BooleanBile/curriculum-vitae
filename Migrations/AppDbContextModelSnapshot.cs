@@ -49,20 +49,20 @@ namespace OarabileMarwane_CV.Migrations
                         new
                         {
                             Id = 1,
-                            CredentialId = "AZ900-123456",
-                            ExpiryDate = new DateTime(2028, 6, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IssueDate = new DateTime(2025, 6, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            NameOfCert = "Microsoft Azure Fundamentals (AZ-900)",
-                            Organisation = "Microsoft"
+                            CredentialId = "WMKQNK95FJB11JGM",
+                            ExpiryDate = new DateTime(2026, 6, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IssueDate = new DateTime(2023, 6, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            NameOfCert = "CompTIA A+",
+                            Organisation = "CompTIA"
                         },
                         new
                         {
                             Id = 2,
-                            CredentialId = "CISCO-987654",
-                            ExpiryDate = new DateTime(2027, 5, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IssueDate = new DateTime(2024, 5, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            NameOfCert = "Introduction to Cybersecurity",
-                            Organisation = "Cisco Networking Academy"
+                            CredentialId = "BSXTSTDRDJ4E159B",
+                            ExpiryDate = new DateTime(2026, 11, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IssueDate = new DateTime(2023, 11, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            NameOfCert = "CompTIA Network+",
+                            Organisation = "CompTIA"
                         });
                 });
 
@@ -117,12 +117,12 @@ namespace OarabileMarwane_CV.Migrations
                         {
                             Id = 1,
                             AboutMe = "I am currently in my final year of studying a Bachelor of Computer and Information Sciences in Application Development at Emeris Ruimsig – Johannesburg Campus. \r\nI am excited about the challenges and knowledge that will be presented to me this year as I pursue a career as a software developer and, later on, a project manager.\r\n\r\nI also have a passionate backup interest in Technical Support, in terms of building and maintaining devices used in our day-to-day. If becoming a software engineer doesn’t work out, I would love being Technical Support to improve user experiences,",
-                            Email = "oarabile.marwane1@email.com",
+                            Email = "oarabile.marwane1@gmail.com",
                             FirstName = "Oarabile",
                             LastName = "Marwane",
                             Linkedin = "https://www.linkedin.com/in/oarabile-marwane-544478261/",
-                            Location = "Johannesburg, South Africa",
-                            PhoneNumber = "0000000000",
+                            Location = "Gauteng",
+                            PhoneNumber = "+27 66 2242737",
                             Title = "3rd Student in Bachelor of Computer and Information Science In Application Development Student | Emeris Ruimsig",
                             avatar = "profile.jpg"
                         });
@@ -160,10 +160,19 @@ namespace OarabileMarwane_CV.Migrations
                         new
                         {
                             Id = 1,
-                            Degree = "Diploma in Information Technology",
-                            Descrip = "Focused on software development, databases, system analysis and design.",
-                            EndDate = new DateTime(2024, 12, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InstitutionName = "IIE Rosebank College",
+                            Degree = "Bachelor of Computer and Information Sciences in Application Development ",
+                            Descrip = "This qualification has been designed to develop my ability to design, implement, and manage solutions for systemic thinkers, enabling me to develop software solutions for any device or platform in the South African economy.",
+                            EndDate = new DateTime(2026, 12, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            InstitutionName = "Emeris Ruimsig",
+                            StartDate = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Degree = "Further Education and Training Certificate: Information Technology: Technical Support ",
+                            Descrip = " purpose of this qualification is to build a foundational entry into the field of Computer Sciences and Information Technology, specifically into the field of Systems Support, covering basic knowledge needed for further study in the field of Systems Support at Higher Education Levels.",
+                            EndDate = new DateTime(2023, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            InstitutionName = "CURRO HOLDINGS LTD ",
                             StartDate = new DateTime(2022, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
                 });
@@ -204,12 +213,12 @@ namespace OarabileMarwane_CV.Migrations
                         new
                         {
                             Id = 1,
-                            Company = "Freelance / Personal Projects",
-                            EmploymentType = "Contract",
-                            EndDate = new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            JobDescription = "Developed web applications using ASP.NET Core MVC, implemented EF Core with SQLite and SQL Server, and deployed applications to Microsoft Azure.",
-                            JobTitle = "Junior Software Developer",
-                            StartDate = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            Company = "Curro Holdings Ltd",
+                            EmploymentType = "Full Time",
+                            EndDate = new DateTime(2024, 2, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            JobDescription = "Providing a variety of support services to users of IT, with limited supervision and direction of others.\r\nContributing to solving user technical problems and meeting their support needs.",
+                            JobTitle = "IT Learnership",
+                            StartDate = new DateTime(2022, 12, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
                 });
 
@@ -239,8 +248,8 @@ namespace OarabileMarwane_CV.Migrations
                         new
                         {
                             Id = 1,
-                            Description = "Console chatbot built in C# with NLP and task manager.",
-                            GitHubLink = "https://github.com/yourrepo",
+                            Description = "A chatbot built in C# with NLP and task manager.",
+                            GitHubLink = "https://github.com/MarwaneOarabile/CyberBot_ST10436124.git",
                             Name = "Cybersecurity Awareness Bot"
                         });
                 });
@@ -263,17 +272,32 @@ namespace OarabileMarwane_CV.Migrations
                         new
                         {
                             Id = 1,
-                            SkillDescp = "C#"
+                            SkillDescp = "Communicate effectively with fellow IT staff & users of information systems"
                         },
                         new
                         {
                             Id = 2,
-                            SkillDescp = "ASP.NET Core MVC"
+                            SkillDescp = "Demonstrate an understanding of different types of computer systems and the use of computer technology in business."
                         },
                         new
                         {
                             Id = 3,
-                            SkillDescp = "SQL Server"
+                            SkillDescp = "Hardware and Infrastructure Support for Personal Computers"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            SkillDescp = "Data Communications and Network Support"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            SkillDescp = "Design software applications on a variety of platforms"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            SkillDescp = "Communicate effectively and professionally as a member of a software design and development team."
                         });
                 });
 #pragma warning restore 612, 618
