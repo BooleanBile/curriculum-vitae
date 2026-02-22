@@ -61,8 +61,8 @@ namespace OarabileMarwane_CV.Data
                     Degree = "Diploma in Information Technology",
                     InstitutionName = "IIE Rosebank College",
                     Descrip = "Focused on software development, databases, system analysis and design.",
-                    StartDate = new DateOnly(2022, 1, 1),
-                    EndDate = new DateOnly(2024, 12, 1)
+                    StartDate = new DateTime(2022, 1, 1),
+                    EndDate = new DateTime(2024, 12, 1)
                 }
             );
 
@@ -73,8 +73,8 @@ namespace OarabileMarwane_CV.Data
                     Id = 1,
                     NameOfCert = "Microsoft Azure Fundamentals (AZ-900)",
                     Organisation = "Microsoft",
-                    IssueDate = new DateOnly(2025, 6, 1),
-                    ExpiryDate = new DateOnly(2028, 6, 1),
+                    IssueDate = new DateTime(2025, 6, 1),
+                    ExpiryDate = new DateTime(2028, 6, 1),
                     CredentialId = "AZ900-123456"
                 },
                 new Certification
@@ -82,16 +82,16 @@ namespace OarabileMarwane_CV.Data
                     Id = 2,
                     NameOfCert = "Introduction to Cybersecurity",
                     Organisation = "Cisco Networking Academy",
-                    IssueDate = new DateOnly(2024, 5, 1),
-                    ExpiryDate = new DateOnly(2027, 5, 1),
+                    IssueDate = new DateTime(2024, 5, 1),
+                    ExpiryDate = new DateTime(2027, 5, 1),
                     CredentialId = "CISCO-987654"
                 }
             );
 
             modelBuilder.Entity<Skill>().HasData(
-                new Skill { Id = 1, Skill = "C#" },
-                new Skill { Id = 2, Skill = "ASP.NET Core MVC" },
-                new Skill { Id = 3, Skill = "SQL Server" }
+                new Skill { Id = 1, SkillDescp = "C#" },
+                new Skill { Id = 2, SkillDescp = "ASP.NET Core MVC" },
+                new Skill { Id = 3, SkillDescp = "SQL Server" }
             );
 
             modelBuilder.Entity<Project>().HasData(

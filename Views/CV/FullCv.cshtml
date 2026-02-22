@@ -1,5 +1,190 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@using OarabileMarwane_CV.ViewModel
+
+@model FullCvViewModel
+
 @{
+    ViewData["Title"] = "Full CV";
 }
+
+<div class="main-wrapper">
+    <div class="container px-3 px-lg-5">
+        <article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
+
+            <!-- HEADER -->
+            <div class="resume-header">
+                <div class="row align-items-center">
+                    <div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
+                        <h2 class="resume-name mb-0 text-uppercase">
+                            @Model.ContactInfo.FirstName @Model.ContactInfo.LastName
+                        </h2>
+                        <div class="resume-tagline mb-3 mb-md-0">
+                            @Model.ContactInfo.Title
+                        </div>
+                    </div>
+
+                    <div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2">
+                                <i class="fas fa-phone-square fa-fw fa-lg me-2"></i>
+                                @Model.ContactInfo.PhoneNumber
+                            </li>
+                            <li class="mb-2">
+                                <i class="fas fa-envelope-square fa-fw fa-lg me-2"></i>
+                                @Model.ContactInfo.Email
+                            </li>
+                            <li class="mb-2">
+                                <i class="fas fa-map-marker-alt fa-fw fa-lg me-2"></i>
+                                @Model.ContactInfo.Location
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-linkedin fa-fw fa-lg me-2"></i>
+                                <a href="@Model.ContactInfo.Linkedin" target="_blank">
+                                    LinkedIn
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <hr />
+
+            <!-- ABOUT -->
+            <div class="resume-intro py-3">
+                <div class="row align-items-center">
+                    <div class="col text-start">
+                        <p>@Model.ContactInfo.AboutMe</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr />
+
+            <div class="resume-body">
+                <div class="row">
+
+                    <!-- MAIN CONTENT -->
+                    <div class="resume-main col-12 col-lg-8 col-xl-9 pe-0 pe-lg-5">
+
+                        <!-- EXPERIENCE -->
+                        <section class="work-section py-3">
+                            <h3 class="text-uppercase resume-section-heading mb-4">
+                                Work Experience
+                            </h3>
+
+                            @foreach (var job in Model.Experiences)
+                            {
+                                <div class="item mb-3">
+                                    <div class="item-heading row align-items-center mb-2">
+                                        <h4 class="item-title col-12 col-md-6 col-lg-8">
+                                            @job.JobTitle
+                                        </h4>
+                                        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-md-end">
+                                            @job.Company |
+                                            @job.StartDate.ToString("yyyy") -
+                                            @(job.EndDate.Year == DateTime.Now.Year ? "Present" : job.EndDate.ToString("yyyy"))
+                                        </div>
+                                    </div>
+                                    <div class="item-content">
+                                        <p>@job.JobDescription</p>
+                                    </div>
+                                </div>
+                            }
+                        </section>
+
+                        <!-- PROJECTS -->
+                        <section class="project-section py-3">
+                            <h3 class="text-uppercase resume-section-heading mb-4">
+                                Projects
+                            </h3>
+
+                            @foreach (var project in Model.Projects)
+                            {
+                                <div class="item mb-3">
+                                    <div class="item-heading row align-items-center mb-2">
+                                        <h4 class="item-title col-12 col-md-6 col-lg-8">
+                                            @project.Name
+                                        </h4>
+                                    </div>
+                                    <div class="item-content">
+                                        <p>@project.Description</p>
+                                        <a href="@project.GitHubLink" target="_blank" class="theme-link">
+                                            View on GitHub
+                                        </a>
+                                    </div>
+                                </div>
+                            }
+                        </section>
+
+                    </div>
+
+                    <!-- SIDEBAR -->
+                    <aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
+
+                        <!-- SKILLS -->
+                        <section class="skills-section py-3">
+                            <h3 class="text-uppercase resume-section-heading mb-4">
+                                Skills
+                            </h3>
+                            <ul class="list-unstyled resume-skills-list">
+                                @foreach (var skill in Model.Skills)
+                                {
+                                    <li class="mb-2">@skill.SkillDescp</li>
+                                }
+                            </ul>
+                        </section>
+
+                        <!-- EDUCATION -->
+                        <section class="education-section py-3">
+                            <h3 class="text-uppercase resume-section-heading mb-4">
+                                Education
+                            </h3>
+
+                            @foreach (var edu in Model.Educations)
+                            {
+                                <div class="mb-3">
+                                    <div class="resume-degree font-weight-bold">
+                                        @edu.Degree
+                                    </div>
+                                    <div class="text-muted">
+                                        @edu.InstitutionName
+                                    </div>
+                                    <div class="text-muted">
+                                        @edu.StartDate.ToString("yyyy") -
+                                        @edu.EndDate.ToString("yyyy")
+                                    </div>
+                                    <div>@edu.Descrip</div>
+                                </div>
+                            }
+                        </section>
+
+                        <!-- CERTIFICATIONS -->
+                        <section class="education-section py-3">
+                            <h3 class="text-uppercase resume-section-heading mb-4">
+                                Certifications
+                            </h3>
+
+                            @foreach (var cert in Model.Certifications)
+                            {
+                                <div class="mb-3">
+                                    <div class="font-weight-bold">
+                                        @cert.NameOfCert
+                                    </div>
+                                    <div class="text-muted">
+                                        @cert.Organisation
+                                    </div>
+                                    <div class="text-muted">
+                                        Issued: @cert.IssueDate.ToString("yyyy")
+                                    </div>
+                                </div>
+                            }
+                        </section>
+
+                    </aside>
+
+                </div>
+            </div>
+
+        </article>
+    </div>
+</div>

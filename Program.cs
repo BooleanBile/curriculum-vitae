@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using OarabileMarwane_CV.Data;
+
 namespace OarabileMarwane_CV
 {
     public class Program
@@ -8,6 +11,11 @@ namespace OarabileMarwane_CV
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            // builder now takes and uses services in application 
+            builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            // vid 15 from codeGPT dude 
 
             var app = builder.Build();
 
@@ -28,7 +36,7 @@ namespace OarabileMarwane_CV
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Cv}/{action=Index}/{id?}");
 
             app.Run();
         }

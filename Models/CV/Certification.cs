@@ -6,9 +6,9 @@
         public int Id { get; set; }
         public string NameOfCert { get; set; }
         public string Organisation { get; set; }
-        public DateOnly IssueDate { get; set; }
+        public DateTime IssueDate { get; set; }
 
-        public DateOnly ExpiryDate { get; set; }
+        public DateTime ExpiryDate { get; set; }
         public string CredentialId { get; set; }
 
     }
