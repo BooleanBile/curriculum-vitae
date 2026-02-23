@@ -123,7 +123,7 @@ namespace OarabileMarwane_CV.Migrations
                             Linkedin = "https://www.linkedin.com/in/oarabile-marwane-544478261/",
                             Location = "Gauteng",
                             PhoneNumber = "+27 66 2242737",
-                            Title = "3rd Student in Bachelor of Computer and Information Science In Application Development Student | Emeris Ruimsig",
+                            Title = "3rd Year Student in Bachelor of Computer and Information Science In Application Development Student | Emeris Ruimsig",
                             avatar = "/assets/images/ohAHandsomGuy.png"
                         });
                 });

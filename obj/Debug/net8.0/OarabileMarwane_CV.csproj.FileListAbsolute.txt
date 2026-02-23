@@ -161,3 +161,4 @@ E:\GitHubLocals\curriculum-vitae\obj\Debug\net8.0\refint\OarabileMarwane_CV.dll
 E:\GitHubLocals\curriculum-vitae\obj\Debug\net8.0\OarabileMarwane_CV.pdb
 E:\GitHubLocals\curriculum-vitae\obj\Debug\net8.0\OarabileMarwane_CV.genruntimeconfig.cache
 E:\GitHubLocals\curriculum-vitae\obj\Debug\net8.0\ref\OarabileMarwane_CV.dll
+E:\GitHubLocals\curriculum-vitae\bin\Debug\net8.0\wwwroot\downloadable\OarabileMarwaneCv.pdf

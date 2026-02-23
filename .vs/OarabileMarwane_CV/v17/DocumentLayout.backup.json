@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "E:\\GitHubLocals\\curriculum-vitae\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|e:\\githublocals\\curriculum-vitae\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|e:\\githublocals\\curriculum-vitae\\views\\cv\\fullcv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|solutionrelative:views\\cv\\fullcv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|e:\\githublocals\\curriculum-vitae\\wwwroot\\assets\\css\\devresume.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|solutionrelative:wwwroot\\assets\\css\\devresume.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|e:\\githublocals\\curriculum-vitae\\wwwroot\\assets\\scss\\devresume.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|solutionrelative:wwwroot\\assets\\scss\\devresume.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|e:\\githublocals\\curriculum-vitae\\wwwroot\\assets\\fontawesome\\css\\all.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|solutionrelative:wwwroot\\assets\\fontawesome\\css\\all.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|e:\\githublocals\\curriculum-vitae\\wwwroot\\assets\\fontawesome\\css\\brands.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|solutionrelative:wwwroot\\assets\\fontawesome\\css\\brands.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|e:\\githublocals\\curriculum-vitae\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|e:\\githublocals\\curriculum-vitae\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BAFCD481-E183-2BB9-0C91-AE2E293A6CA9}|OarabileMarwane_CV.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,42 +62,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "devresume.css",
-              "DocumentMoniker": "E:\\GitHubLocals\\curriculum-vitae\\wwwroot\\assets\\css\\devresume.css",
-              "RelativeDocumentMoniker": "wwwroot\\assets\\css\\devresume.css",
-              "ToolTip": "E:\\GitHubLocals\\curriculum-vitae\\wwwroot\\assets\\css\\devresume.css",
-              "RelativeToolTip": "wwwroot\\assets\\css\\devresume.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "devresume.scss",
+              "DocumentMoniker": "E:\\GitHubLocals\\curriculum-vitae\\wwwroot\\assets\\scss\\devresume.scss",
+              "RelativeDocumentMoniker": "wwwroot\\assets\\scss\\devresume.scss",
+              "ToolTip": "E:\\GitHubLocals\\curriculum-vitae\\wwwroot\\assets\\scss\\devresume.scss",
+              "RelativeToolTip": "wwwroot\\assets\\scss\\devresume.scss",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAuwIcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2026-02-23T15:43:39.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "brands.css",
+              "DocumentMoniker": "E:\\GitHubLocals\\curriculum-vitae\\wwwroot\\assets\\fontawesome\\css\\brands.css",
+              "RelativeDocumentMoniker": "wwwroot\\assets\\fontawesome\\css\\brands.css",
+              "ToolTip": "E:\\GitHubLocals\\curriculum-vitae\\wwwroot\\assets\\fontawesome\\css\\brands.css",
+              "RelativeToolTip": "wwwroot\\assets\\fontawesome\\css\\brands.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-02-23T08:35:54.68Z",
+              "WhenOpened": "2026-02-23T15:41:58.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "all.css",
+              "DocumentMoniker": "E:\\GitHubLocals\\curriculum-vitae\\wwwroot\\assets\\fontawesome\\css\\all.css",
+              "RelativeDocumentMoniker": "wwwroot\\assets\\fontawesome\\css\\all.css",
+              "ToolTip": "E:\\GitHubLocals\\curriculum-vitae\\wwwroot\\assets\\fontawesome\\css\\all.css",
+              "RelativeToolTip": "wwwroot\\assets\\fontawesome\\css\\all.css",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-23T15:41:53.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\GitHubLocals\\curriculum-vitae\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\GitHubLocals\\curriculum-vitae\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T08:32:11.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "FullCv.cshtml",
               "DocumentMoniker": "E:\\GitHubLocals\\curriculum-vitae\\Views\\CV\\FullCv.cshtml",
               "RelativeDocumentMoniker": "Views\\CV\\FullCv.cshtml",
               "ToolTip": "E:\\GitHubLocals\\curriculum-vitae\\Views\\CV\\FullCv.cshtml",
               "RelativeToolTip": "Views\\CV\\FullCv.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBEAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T08:28:18.442Z",
+              "WhenOpened": "2026-02-23T13:27:09.402Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\GitHubLocals\\curriculum-vitae\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\GitHubLocals\\curriculum-vitae\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T09:27:55.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\GitHubLocals\\curriculum-vitae\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\GitHubLocals\\curriculum-vitae\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-23T09:24:50.096Z"
             }
           ]
         },

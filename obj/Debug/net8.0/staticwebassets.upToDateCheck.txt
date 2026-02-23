@@ -2239,7 +2239,7 @@ wwwroot\assets\scss\bootstrap\scss\_type.scss
 wwwroot\assets\scss\bootstrap\scss\_utilities.scss
 wwwroot\assets\scss\bootstrap\scss\_variables-dark.scss
 wwwroot\assets\scss\bootstrap\scss\_variables.scss
-wwwroot\assets\scss\devresume.scss
+wwwroot\downloadable\OarabileMarwaneCv.pdf
 wwwroot\favicon.ico
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -2298,3 +2298,4 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\assets\scss\devresume.scss

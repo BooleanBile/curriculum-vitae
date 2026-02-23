@@ -30,7 +30,7 @@ namespace OarabileMarwane_CV.Data
                     Id = 1,
                     FirstName = "Oarabile",
                     LastName = "Marwane",
-                    Title = "3rd Student in Bachelor of Computer and Information Science In Application Development Student | Emeris Ruimsig",
+                    Title = "3rd Year Student in Bachelor of Computer and Information Science In Application Development Student | Emeris Ruimsig",
                     AboutMe = "I am currently in my final year of studying a Bachelor of Computer and Information Sciences in Application Development at Emeris Ruimsig – Johannesburg Campus. \r\nI am excited about the challenges and knowledge that will be presented to me this year as I pursue a career as a software developer and, later on, a project manager.\r\n\r\nI also have a passionate backup interest in Technical Support, in terms of building and maintaining devices used in our day-to-day. If becoming a software engineer doesn’t work out, I would love being Technical Support to improve user experiences,",
                     Location = "Gauteng",
                     Linkedin = "https://www.linkedin.com/in/oarabile-marwane-544478261/",

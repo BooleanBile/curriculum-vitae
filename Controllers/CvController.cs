@@ -32,5 +32,7 @@ namespace OarabileMarwane_CV.Controllers
 
             return View("FullCv", viewModel);
         }
+        
+
     }
 }

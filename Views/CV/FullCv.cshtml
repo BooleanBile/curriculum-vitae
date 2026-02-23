@@ -13,41 +13,52 @@
 
             <!--//resume-header-->
             <div class="resume-header">
-                <div class="row align-items-center">
+                <div class="row align-items-start">
                     <div class="col-12 col-md-3 col-xl-2 text-center">
                         <img class="resume-profile-image mb-3 mb-md-0 me-md-5  ms-md-0 rounded mx-auto" src="@Model.ContactInfo.avatar" alt="A Handsom Student Developer">
                     </div>
                     <div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
-                        <h2 class="resume-name mb-0 text-uppercase">
+                        <h2 class="resume-name mb-0 text-uppercase text-center text-md-start">
                             @Model.ContactInfo.FirstName @Model.ContactInfo.LastName
                         </h2>
-                        <div class="resume-tagline mb-3 mb-md-0">
-                            @Model.ContactInfo.Title
-                        </div>
+
+                        <div class="row align-items-center">
+
+                            <!-- LEFT SIDE -->
+                            <div class="col-12 col-md-7">
+                                <div class="resume-tagline mb-3 mb-md-0">
+                                    @Model.ContactInfo.Title
+                                </div>
+                            </div>
+
+                            <!-- RIGHT SIDE -->
+                            <div class="col-12 col-md-5 text-md-end">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-2">
+                                        <i class="fas fa-phone-square fa-fw fa-lg me-2"></i>
+                                        @Model.ContactInfo.PhoneNumber
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="fas fa-envelope-square fa-fw fa-lg me-2"></i>
+                                        @Model.ContactInfo.Email
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="fas fa-map-marker-alt fa-fw fa-lg me-2"></i>
+                                        @Model.ContactInfo.Location
+                                    </li>
+                                    <li>
+                                        <i class="fa-brands fa-linkedin fa-fw fa-lg me-2"></i>
+                                        <a href="@Model.ContactInfo.Linkedin" target="_blank">
+                                            LinkedIn
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
                     </div>
 
-                    <div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
-                        <ul class="list-unstyled mb-0">
-                            <li class="mb-2">
-                                <i class="fas fa-phone-square fa-fw fa-lg me-2"></i>
-                                @Model.ContactInfo.PhoneNumber
-                            </li>
-                            <li class="mb-2">
-                                <i class="fas fa-envelope-square fa-fw fa-lg me-2"></i>
-                                @Model.ContactInfo.Email
-                            </li>
-                            <li class="mb-2">
-                                <i class="fas fa-map-marker-alt fa-fw fa-lg me-2"></i>
-                                @Model.ContactInfo.Location
-                            </li>
-                            <li>
-                                <i class="fa-brands fa-linkedin fa-fw fa-lg me-2"></i>
-                                <a href="@Model.ContactInfo.Linkedin" target="_blank">
-                                    LinkedIn
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                    
+
                 </div>
             </div>
 
@@ -61,6 +72,8 @@
                     </div>
                 </div>
             </div>
+
+            
 
             <hr />
 
@@ -104,16 +117,17 @@
 
                             @foreach (var edu in Model.Educations)
                             {
-                                <div class="mb-3">
-                                    <div class="resume-degree font-weight-bold">
+                                <div class="item mb-3">
+                                <div class="item-heading row align-items-center mb-2">
+                                    <h4 class="item-title col-12 col-md-6 col-lg-8">
                                         @edu.Degree
-                                    </div>
-                                    <div class="text-muted">
-                                        @edu.InstitutionName
-                                    </div>
-                                    <div class="text-muted">
+                                    </h4>
+
+                                    <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-md-end">
+                                        @edu.InstitutionName |
                                         @edu.StartDate.ToString("yyyy") -
                                         @edu.EndDate.ToString("yyyy")
+                                    </div>
                                     </div>
                                     <div>@edu.Descrip</div>
                                 </div>
@@ -174,18 +188,22 @@
 
                             @foreach (var cert in Model.Certifications)
                             {
-                                <div class="mb-3">
-                                    <div class="font-weight-bold">
-                                        @cert.NameOfCert
+                                <div class="item mb-3">
+                                    <div class="item-heading row align-items-center mb-2">
+
+                                        <h4 class="item-title col-12 col-md-6 col-lg-8">
+                                            @cert.NameOfCert
+                                        </h4>
+                                        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-md-end">
+                                            @cert.Organisation
+                                        </div>
+                                    
                                     </div>
-                                    <div class="text-muted">
-                                        @cert.Organisation
+                                    <div class="item-meta text-md-start">
+                                            Date of Issued:@cert.IssueDate.ToString("yyyy")
                                     </div>
-                                    <div class="text-muted">
-                                        Issued: @cert.IssueDate.ToString("yyyy")
-                                    </div>
-                                    <div class="text-muted">
-                                        Expiry: @cert.ExpiryDate.ToString("yyyy")
+                                    <div class="item-meta text-md-start">
+                                            Date of Expiry:     @cert.ExpiryDate.ToString("yyyy")
                                     </div>
                                 </div>
                             }
@@ -193,9 +211,18 @@
 
                     </aside>
 
+                    
                 </div>
+                
             </div>
+            
 
         </article>
+
+        <footer class="footer text-center py-4">
+            <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+            <small class="copyright text-muted">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </footer>
+
     </div>
 </div>

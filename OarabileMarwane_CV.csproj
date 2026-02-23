@@ -18,6 +18,13 @@
     <Content Update="wwwroot\assets\images\ohAHandsomGuy.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Update="wwwroot\downloadable\OarabileMarwaneCv.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\downloadable\" />
   </ItemGroup>
 
 </Project>
