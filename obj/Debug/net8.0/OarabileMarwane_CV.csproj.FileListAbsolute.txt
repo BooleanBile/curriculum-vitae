@@ -1,3 +1,4 @@
+E:\GitHubLocals\curriculum-vitae\bin\Debug\net8.0\wwwroot\assets\images\ohAHandsomGuy.png
 E:\GitHubLocals\curriculum-vitae\bin\Debug\net8.0\appsettings.Development.json
 E:\GitHubLocals\curriculum-vitae\bin\Debug\net8.0\appsettings.json
 E:\GitHubLocals\curriculum-vitae\bin\Debug\net8.0\OarabileMarwane_CV.staticwebassets.runtime.json

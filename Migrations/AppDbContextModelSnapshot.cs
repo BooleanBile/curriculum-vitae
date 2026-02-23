@@ -50,7 +50,7 @@ namespace OarabileMarwane_CV.Migrations
                         {
                             Id = 1,
                             CredentialId = "WMKQNK95FJB11JGM",
-                            ExpiryDate = new DateTime(2026, 6, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ExpiryDate = new DateTime(2026, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IssueDate = new DateTime(2023, 6, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             NameOfCert = "CompTIA A+",
                             Organisation = "CompTIA"
@@ -59,7 +59,7 @@ namespace OarabileMarwane_CV.Migrations
                         {
                             Id = 2,
                             CredentialId = "BSXTSTDRDJ4E159B",
-                            ExpiryDate = new DateTime(2026, 11, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ExpiryDate = new DateTime(2026, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IssueDate = new DateTime(2023, 11, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             NameOfCert = "CompTIA Network+",
                             Organisation = "CompTIA"
@@ -124,7 +124,7 @@ namespace OarabileMarwane_CV.Migrations
                             Location = "Gauteng",
                             PhoneNumber = "+27 66 2242737",
                             Title = "3rd Student in Bachelor of Computer and Information Science In Application Development Student | Emeris Ruimsig",
-                            avatar = "profile.jpg"
+                            avatar = "/assets/images/ohAHandsomGuy.png"
                         });
                 });
 
@@ -170,7 +170,7 @@ namespace OarabileMarwane_CV.Migrations
                         {
                             Id = 2,
                             Degree = "Further Education and Training Certificate: Information Technology: Technical Support ",
-                            Descrip = " purpose of this qualification is to build a foundational entry into the field of Computer Sciences and Information Technology, specifically into the field of Systems Support, covering basic knowledge needed for further study in the field of Systems Support at Higher Education Levels.",
+                            Descrip = "Purpose of this qualification is to build a foundational entry into the field of Computer Sciences and Information Technology, specifically into the field of Systems Support, covering basic knowledge needed for further study in the field of Systems Support at Higher Education Levels.",
                             EndDate = new DateTime(2023, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InstitutionName = "CURRO HOLDINGS LTD ",
                             StartDate = new DateTime(2022, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)

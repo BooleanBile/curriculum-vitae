@@ -36,7 +36,7 @@ namespace OarabileMarwane_CV.Data
                     Linkedin = "https://www.linkedin.com/in/oarabile-marwane-544478261/",
                     Email = "oarabile.marwane1@gmail.com",
                     PhoneNumber = "+27 66 2242737",
-                    avatar = "profile.jpg"
+                    avatar = "/assets/images/ohAHandsomGuy.png"
                 }
             );
 
@@ -69,7 +69,7 @@ namespace OarabileMarwane_CV.Data
                     Id = 2,
                     Degree = "Further Education and Training Certificate: Information Technology: Technical Support ",
                     InstitutionName = "CURRO HOLDINGS LTD ",
-                    Descrip = " purpose of this qualification is to build a foundational entry into the field of Computer Sciences and Information Technology, specifically into the field of Systems Support, covering basic knowledge needed for further study in the field of Systems Support at Higher Education Levels.",
+                    Descrip = "Purpose of this qualification is to build a foundational entry into the field of Computer Sciences and Information Technology, specifically into the field of Systems Support, covering basic knowledge needed for further study in the field of Systems Support at Higher Education Levels.",
                     StartDate = new DateTime(2022, 1, 1),
                     EndDate = new DateTime(2023, 1, 1)
                 }
@@ -83,7 +83,7 @@ namespace OarabileMarwane_CV.Data
                     NameOfCert = "CompTIA A+",
                     Organisation = "CompTIA",
                     IssueDate = new DateTime(2023, 6, 1),
-                    ExpiryDate = new DateTime(2026, 6, 1),
+                    ExpiryDate = new DateTime(2026, 1, 1),
                     CredentialId = "WMKQNK95FJB11JGM"
                 },
                 new Certification
@@ -92,7 +92,7 @@ namespace OarabileMarwane_CV.Data
                     NameOfCert = "CompTIA Network+",
                     Organisation = "CompTIA",
                     IssueDate = new DateTime(2023, 11, 1),
-                    ExpiryDate = new DateTime(2026, 11, 1),
+                    ExpiryDate = new DateTime(2026, 1, 1),
                     CredentialId = "BSXTSTDRDJ4E159B"
                 }
             );
